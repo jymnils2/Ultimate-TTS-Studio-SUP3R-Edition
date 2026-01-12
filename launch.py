@@ -9884,6 +9884,6 @@ if __name__ == "__main__":
     with suppress_specific_warnings():
         demo = create_gradio_interface()
         demo.launch(
-            share=False,
+            share=True,
             show_error=True
         ) 
